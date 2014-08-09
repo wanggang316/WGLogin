@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66A90E11995D561008B9559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90E01995D561008B9559 /* Foundation.framework */; };
+		D66A90E31995D561008B9559 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90E21995D561008B9559 /* CoreGraphics.framework */; };
+		D66A90E51995D561008B9559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90E41995D561008B9559 /* UIKit.framework */; };
+		D66A90EB1995D561008B9559 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66A90E91995D561008B9559 /* InfoPlist.strings */; };
+		D66A90ED1995D561008B9559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A90EC1995D561008B9559 /* main.m */; };
+		D66A90F11995D561008B9559 /* WGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A90F01995D561008B9559 /* WGAppDelegate.m */; };
+		D66A90F31995D561008B9559 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A90F21995D561008B9559 /* Images.xcassets */; };
+		D66A90FA1995D561008B9559 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90F91995D561008B9559 /* XCTest.framework */; };
+		D66A90FB1995D561008B9559 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90E01995D561008B9559 /* Foundation.framework */; };
+		D66A90FC1995D561008B9559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90E41995D561008B9559 /* UIKit.framework */; };
+		D66A91041995D561008B9559 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66A91021995D561008B9559 /* InfoPlist.strings */; };
+		D66A91061995D561008B9559 /* WGLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A91051995D561008B9559 /* WGLoginTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D66A90FD1995D561008B9559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D66A90D51995D561008B9559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D66A90DC1995D561008B9559;
+			remoteInfo = WGLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D66A90DD1995D561008B9559 /* WGLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66A90E01995D561008B9559 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D66A90E21995D561008B9559 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D66A90E41995D561008B9559 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D66A90E81995D561008B9559 /* WGLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGLogin-Info.plist"; sourceTree = "<group>"; };
+		D66A90EA1995D561008B9559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66A90EC1995D561008B9559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D66A90EE1995D561008B9559 /* WGLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WGLogin-Prefix.pch"; sourceTree = "<group>"; };
+		D66A90EF1995D561008B9559 /* WGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGAppDelegate.h; sourceTree = "<group>"; };
+		D66A90F01995D561008B9559 /* WGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGAppDelegate.m; sourceTree = "<group>"; };
+		D66A90F21995D561008B9559 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D66A90F81995D561008B9559 /* WGLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66A90F91995D561008B9559 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D66A91011995D561008B9559 /* WGLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGLoginTests-Info.plist"; sourceTree = "<group>"; };
+		D66A91031995D561008B9559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66A91051995D561008B9559 /* WGLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLoginTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66A90DA1995D561008B9559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A90E31995D561008B9559 /* CoreGraphics.framework in Frameworks */,
+				D66A90E51995D561008B9559 /* UIKit.framework in Frameworks */,
+				D66A90E11995D561008B9559 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66A90F51995D561008B9559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A90FA1995D561008B9559 /* XCTest.framework in Frameworks */,
+				D66A90FC1995D561008B9559 /* UIKit.framework in Frameworks */,
+				D66A90FB1995D561008B9559 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66A90D41995D561008B9559 = {
+			isa = PBXGroup;
+			children = (
+				D66A90E61995D561008B9559 /* WGLogin */,
+				D66A90FF1995D561008B9559 /* WGLoginTests */,
+				D66A90DF1995D561008B9559 /* Frameworks */,
+				D66A90DE1995D561008B9559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66A90DE1995D561008B9559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66A90DD1995D561008B9559 /* WGLogin.app */,
+				D66A90F81995D561008B9559 /* WGLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66A90DF1995D561008B9559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D66A90E01995D561008B9559 /* Foundation.framework */,
+				D66A90E21995D561008B9559 /* CoreGraphics.framework */,
+				D66A90E41995D561008B9559 /* UIKit.framework */,
+				D66A90F91995D561008B9559 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66A90E61995D561008B9559 /* WGLogin */ = {
+			isa = PBXGroup;
+			children = (
+				D66A90EF1995D561008B9559 /* WGAppDelegate.h */,
+				D66A90F01995D561008B9559 /* WGAppDelegate.m */,
+				D66A90F21995D561008B9559 /* Images.xcassets */,
+				D66A90E71995D561008B9559 /* Supporting Files */,
+			);
+			path = WGLogin;
+			sourceTree = "<group>";
+		};
+		D66A90E71995D561008B9559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66A90E81995D561008B9559 /* WGLogin-Info.plist */,
+				D66A90E91995D561008B9559 /* InfoPlist.strings */,
+				D66A90EC1995D561008B9559 /* main.m */,
+				D66A90EE1995D561008B9559 /* WGLogin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66A90FF1995D561008B9559 /* WGLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				D66A91051995D561008B9559 /* WGLoginTests.m */,
+				D66A91001995D561008B9559 /* Supporting Files */,
+			);
+			path = WGLoginTests;
+			sourceTree = "<group>";
+		};
+		D66A91001995D561008B9559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66A91011995D561008B9559 /* WGLoginTests-Info.plist */,
+				D66A91021995D561008B9559 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66A90DC1995D561008B9559 /* WGLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66A91091995D561008B9559 /* Build configuration list for PBXNativeTarget "WGLogin" */;
+			buildPhases = (
+				D66A90D91995D561008B9559 /* Sources */,
+				D66A90DA1995D561008B9559 /* Frameworks */,
+				D66A90DB1995D561008B9559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGLogin;
+			productName = WGLogin;
+			productReference = D66A90DD1995D561008B9559 /* WGLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D66A90F71995D561008B9559 /* WGLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66A910C1995D561008B9559 /* Build configuration list for PBXNativeTarget "WGLoginTests" */;
+			buildPhases = (
+				D66A90F41995D561008B9559 /* Sources */,
+				D66A90F51995D561008B9559 /* Frameworks */,
+				D66A90F61995D561008B9559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D66A90FE1995D561008B9559 /* PBXTargetDependency */,
+			);
+			name = WGLoginTests;
+			productName = WGLoginTests;
+			productReference = D66A90F81995D561008B9559 /* WGLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66A90D51995D561008B9559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wwwlife;
+				TargetAttributes = {
+					D66A90F71995D561008B9559 = {
+						TestTargetID = D66A90DC1995D561008B9559;
+					};
+				};
+			};
+			buildConfigurationList = D66A90D81995D561008B9559 /* Build configuration list for PBXProject "WGLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D66A90D41995D561008B9559;
+			productRefGroup = D66A90DE1995D561008B9559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66A90DC1995D561008B9559 /* WGLogin */,
+				D66A90F71995D561008B9559 /* WGLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66A90DB1995D561008B9559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A90EB1995D561008B9559 /* InfoPlist.strings in Resources */,
+				D66A90F31995D561008B9559 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66A90F61995D561008B9559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A91041995D561008B9559 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66A90D91995D561008B9559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A90F11995D561008B9559 /* WGAppDelegate.m in Sources */,
+				D66A90ED1995D561008B9559 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66A90F41995D561008B9559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A91061995D561008B9559 /* WGLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D66A90FE1995D561008B9559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D66A90DC1995D561008B9559 /* WGLogin */;
+			targetProxy = D66A90FD1995D561008B9559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D66A90E91995D561008B9559 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66A90EA1995D561008B9559 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D66A91021995D561008B9559 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66A91031995D561008B9559 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D66A91071995D561008B9559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D66A91081995D561008B9559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D66A910A1995D561008B9559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGLogin/WGLogin-Prefix.pch";
+				INFOPLIST_FILE = "WGLogin/WGLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D66A910B1995D561008B9559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGLogin/WGLogin-Prefix.pch";
+				INFOPLIST_FILE = "WGLogin/WGLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D66A910D1995D561008B9559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WGLogin.app/WGLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGLogin/WGLogin-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WGLoginTests/WGLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D66A910E1995D561008B9559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WGLogin.app/WGLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WGLogin/WGLogin-Prefix.pch";
+				INFOPLIST_FILE = "WGLoginTests/WGLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66A90D81995D561008B9559 /* Build configuration list for PBXProject "WGLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66A91071995D561008B9559 /* Debug */,
+				D66A91081995D561008B9559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66A91091995D561008B9559 /* Build configuration list for PBXNativeTarget "WGLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66A910A1995D561008B9559 /* Debug */,
+				D66A910B1995D561008B9559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D66A910C1995D561008B9559 /* Build configuration list for PBXNativeTarget "WGLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66A910D1995D561008B9559 /* Debug */,
+				D66A910E1995D561008B9559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66A90D51995D561008B9559 /* Project object */;
+}
