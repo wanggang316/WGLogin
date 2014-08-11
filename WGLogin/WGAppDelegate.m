@@ -7,6 +7,7 @@
 //
 
 #import "WGAppDelegate.h"
+#import "WGLoginAndRegisterViewController.h"
 
 @implementation WGAppDelegate
 
@@ -14,6 +15,9 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    [self.window setRootViewController:[[WGLoginAndRegisterViewController alloc] initWithNibName:@"WGLoginAndRegisterViewController" bundle:nil]];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

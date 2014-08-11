@@ -19,6 +19,18 @@
 		D66A90FC1995D561008B9559 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66A90E41995D561008B9559 /* UIKit.framework */; };
 		D66A91041995D561008B9559 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66A91021995D561008B9559 /* InfoPlist.strings */; };
 		D66A91061995D561008B9559 /* WGLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A91051995D561008B9559 /* WGLoginTests.m */; };
+		D66A91121995D5A1008B9559 /* WGLoginAndRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A91101995D5A1008B9559 /* WGLoginAndRegisterViewController.m */; };
+		D66A91131995D5A1008B9559 /* WGLoginAndRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66A91111995D5A1008B9559 /* WGLoginAndRegisterViewController.xib */; };
+		D66A91161995D5ED008B9559 /* WGLoginTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A91151995D5ED008B9559 /* WGLoginTableView.m */; };
+		D66A911E1995D87D008B9559 /* WGTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A911C1995D87D008B9559 /* WGTextCell.m */; };
+		D66A911F1995D87D008B9559 /* WGTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66A911D1995D87D008B9559 /* WGTextCell.xib */; };
+		D66A91221995DB14008B9559 /* WGUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A91211995DB14008B9559 /* WGUser.m */; };
+		D66A91251995DE57008B9559 /* WGTextCellSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = D66A91241995DE57008B9559 /* WGTextCellSetting.m */; };
+		D66A91281995E7EE008B9559 /* email.png in Resources */ = {isa = PBXBuildFile; fileRef = D66A91261995E7EE008B9559 /* email.png */; };
+		D66A91291995E7EE008B9559 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = D66A91271995E7EE008B9559 /* password.png */; };
+		D66A912B1995EC27008B9559 /* username.png in Resources */ = {isa = PBXBuildFile; fileRef = D66A912A1995EC27008B9559 /* username.png */; };
+		D66A912D19960497008B9559 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D66A912C19960497008B9559 /* back.png */; };
+		D66A912F19961733008B9559 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = D66A912E19961733008B9559 /* cancel.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,23 @@
 		D66A91011995D561008B9559 /* WGLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WGLoginTests-Info.plist"; sourceTree = "<group>"; };
 		D66A91031995D561008B9559 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D66A91051995D561008B9559 /* WGLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGLoginTests.m; sourceTree = "<group>"; };
+		D66A910F1995D5A1008B9559 /* WGLoginAndRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLoginAndRegisterViewController.h; sourceTree = "<group>"; };
+		D66A91101995D5A1008B9559 /* WGLoginAndRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLoginAndRegisterViewController.m; sourceTree = "<group>"; };
+		D66A91111995D5A1008B9559 /* WGLoginAndRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WGLoginAndRegisterViewController.xib; sourceTree = "<group>"; };
+		D66A91141995D5ED008B9559 /* WGLoginTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGLoginTableView.h; sourceTree = "<group>"; };
+		D66A91151995D5ED008B9559 /* WGLoginTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGLoginTableView.m; sourceTree = "<group>"; };
+		D66A911B1995D87D008B9559 /* WGTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTextCell.h; sourceTree = "<group>"; };
+		D66A911C1995D87D008B9559 /* WGTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTextCell.m; sourceTree = "<group>"; };
+		D66A911D1995D87D008B9559 /* WGTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WGTextCell.xib; sourceTree = "<group>"; };
+		D66A91201995DB14008B9559 /* WGUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGUser.h; sourceTree = "<group>"; };
+		D66A91211995DB14008B9559 /* WGUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGUser.m; sourceTree = "<group>"; };
+		D66A91231995DE57008B9559 /* WGTextCellSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGTextCellSetting.h; sourceTree = "<group>"; };
+		D66A91241995DE57008B9559 /* WGTextCellSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGTextCellSetting.m; sourceTree = "<group>"; };
+		D66A91261995E7EE008B9559 /* email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email.png; sourceTree = "<group>"; };
+		D66A91271995E7EE008B9559 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		D66A912A1995EC27008B9559 /* username.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = username.png; sourceTree = "<group>"; };
+		D66A912C19960497008B9559 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		D66A912E19961733008B9559 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +140,19 @@
 				D66A90F01995D561008B9559 /* WGAppDelegate.m */,
 				D66A90F21995D561008B9559 /* Images.xcassets */,
 				D66A90E71995D561008B9559 /* Supporting Files */,
+				D66A910F1995D5A1008B9559 /* WGLoginAndRegisterViewController.h */,
+				D66A91101995D5A1008B9559 /* WGLoginAndRegisterViewController.m */,
+				D66A91111995D5A1008B9559 /* WGLoginAndRegisterViewController.xib */,
+				D66A91141995D5ED008B9559 /* WGLoginTableView.h */,
+				D66A91151995D5ED008B9559 /* WGLoginTableView.m */,
+				D66A911B1995D87D008B9559 /* WGTextCell.h */,
+				D66A911C1995D87D008B9559 /* WGTextCell.m */,
+				D66A911D1995D87D008B9559 /* WGTextCell.xib */,
+				D66A91201995DB14008B9559 /* WGUser.h */,
+				D66A91211995DB14008B9559 /* WGUser.m */,
+				D66A91231995DE57008B9559 /* WGTextCellSetting.h */,
+				D66A91241995DE57008B9559 /* WGTextCellSetting.m */,
+				D66A913019965ED1008B9559 /* images */,
 			);
 			path = WGLogin;
 			sourceTree = "<group>";
@@ -142,6 +184,18 @@
 				D66A91021995D561008B9559 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D66A913019965ED1008B9559 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D66A91261995E7EE008B9559 /* email.png */,
+				D66A91271995E7EE008B9559 /* password.png */,
+				D66A912A1995EC27008B9559 /* username.png */,
+				D66A912C19960497008B9559 /* back.png */,
+				D66A912E19961733008B9559 /* cancel.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +274,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66A91291995E7EE008B9559 /* password.png in Resources */,
+				D66A912B1995EC27008B9559 /* username.png in Resources */,
+				D66A911F1995D87D008B9559 /* WGTextCell.xib in Resources */,
+				D66A91281995E7EE008B9559 /* email.png in Resources */,
+				D66A912D19960497008B9559 /* back.png in Resources */,
 				D66A90EB1995D561008B9559 /* InfoPlist.strings in Resources */,
+				D66A912F19961733008B9559 /* cancel.png in Resources */,
+				D66A91131995D5A1008B9559 /* WGLoginAndRegisterViewController.xib in Resources */,
 				D66A90F31995D561008B9559 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66A91251995DE57008B9559 /* WGTextCellSetting.m in Sources */,
 				D66A90F11995D561008B9559 /* WGAppDelegate.m in Sources */,
+				D66A91121995D5A1008B9559 /* WGLoginAndRegisterViewController.m in Sources */,
 				D66A90ED1995D561008B9559 /* main.m in Sources */,
+				D66A91161995D5ED008B9559 /* WGLoginTableView.m in Sources */,
+				D66A91221995DB14008B9559 /* WGUser.m in Sources */,
+				D66A911E1995D87D008B9559 /* WGTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +504,7 @@
 				D66A910B1995D561008B9559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D66A910C1995D561008B9559 /* Build configuration list for PBXNativeTarget "WGLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +513,7 @@
 				D66A910E1995D561008B9559 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
